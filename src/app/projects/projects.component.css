@@ -1,0 +1,20 @@
+.projects-container {
+  padding: 30px;
+}
+
+.custom-title {
+  font-family: 'Pacifico', cursive;
+  color: #B0A90E;
+  font-size: 25px;
+}
+
+.custom-subtitle {
+  color: #B0A90E;
+  font-size: 22px;
+}
+
+.custom-section-title {
+  color: #B0A90E;
+  font-size: 18px;
+  font-weight: bold;
+}
