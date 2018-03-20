@@ -1,0 +1,44 @@
+h2, h3 {
+  font-family: 'Pacifico', cursive;
+  color: #E8CA3F;
+}
+
+.about-container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.polaroid-image {
+  background-color: white;
+  padding: 5px 5px 15px 5px;
+  border: solid darkgray 1px;
+  -webkit-box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+  box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+}
+
+.profile-image {
+  width: 100%;
+  border: 1px solid darkgray;
+  margin-bottom: 5px;
+}
+
+.photo-caption {
+  font-family: 'Pacifico', cursive;
+  font-size: 14px;
+  text-align: center;
+}
+
+.about-text {
+  padding-right: 20px;
+}
+
+.social-media-icon {
+  margin: 10px;
+  width: 50px;
+}
+
+.social-media-icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

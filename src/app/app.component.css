@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 25%;
+  background-color: black;
+  color: white;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.custom-font {
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  color: white;
+}
