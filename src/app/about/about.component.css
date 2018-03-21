@@ -6,6 +6,7 @@ h2, h3 {
 .about-container {
   display: flex;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .polaroid-image {
@@ -15,6 +16,10 @@ h2, h3 {
   -webkit-box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
   -moz-box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
   box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+  width: 25%;
+  float: right;
+  min-width: 200px;
+  margin-left: 20px;
 }
 
 .profile-image {
