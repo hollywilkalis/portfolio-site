@@ -13,11 +13,31 @@
 }
 
 .custom-font {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Itim', cursive;
   font-size: 25px;
   color: white;
 }
 
 .nav-spacing {
   margin-left: 20px;
+}
+
+.social-media-icon {
+  margin: 10px;
+  width: 50px;
+}
+
+.social-media-icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #f2da6d;
+  padding: 15px;
+}
+
+h4 {
+  font-family: 'Itim', cursive;
+  color: #573319;
 }

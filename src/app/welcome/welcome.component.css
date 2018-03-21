@@ -1,3 +1,31 @@
 .welcome-container {
   background-color: white;
+  padding: 40px;
+}
+
+.polaroid-image {
+  background-color: white;
+  padding: 5px 5px 15px 5px;
+  border: solid darkgray 1px;
+  -webkit-box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+  box-shadow: 11px 12px 13px -9px rgba(0,0,0,0.75);
+}
+
+.profile-image {
+  width: 100%;
+  border: 1px solid darkgray;
+  margin-bottom: 5px;
+}
+
+.photo-caption {
+  font-family: 'Itim', cursive;
+  font-size: 14px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Itim', cursive;
+  color: #E8CA3F;
+  font-size: 30px;
 }
