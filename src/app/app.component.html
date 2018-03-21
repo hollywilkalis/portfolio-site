@@ -2,11 +2,11 @@
   <img class="header-image" src="./assets/images/header.png" alt="Image of path running through trees, backlit by golden light, overlaid with name Holly Wilkalis in a script font" />
   <nav class="navbar navbar-expand-lg navbar-dark custom-font" style="background-color: #261508;">
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button type="button" class="navbar-toggler navbar-toggler-right" (click)="isExpanded = !isExpanded" [attr.aria-expanded]="!isExpanded" aria-controls="navbarContent">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarContent" [ngbCollapse]="!isExpanded">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item nav-spacing active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
