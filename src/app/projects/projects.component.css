@@ -5,12 +5,14 @@
 .custom-title {
   font-family: 'Itim', cursive;
   color: #B0A90E;
-  font-size: 25px;
+  font-size: 27px;
+  line-height: 1;
 }
 
 .custom-subtitle {
   color: #B0A90E;
   font-size: 22px;
+  margin-top: 15px;
 }
 
 .custom-section-title {
@@ -18,3 +20,7 @@
   font-size: 16px;
   font-weight: bold;
 }
+
+ .margin-bottom-sm {
+   margin-bottom: 10px;
+ }
