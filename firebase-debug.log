@@ -1,0 +1,26 @@
+[debug] [2018-05-10T22:56:11.683Z] ----------------------------------------------------------------------
+[debug] [2018-05-10T22:56:11.687Z] Command:       /usr/local/Cellar/node/8.9.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-05-10T22:56:11.687Z] CLI Version:   3.17.7
+[debug] [2018-05-10T22:56:11.687Z] Platform:      darwin
+[debug] [2018-05-10T22:56:11.687Z] Node Version:  v8.9.1
+[debug] [2018-05-10T22:56:11.688Z] Time:          Thu May 10 2018 15:56:11 GMT-0700 (PDT)
+[debug] [2018-05-10T22:56:11.688Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-10T22:56:11.702Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-10T22:56:11.702Z] > authorizing via signed-in user
+[debug] [2018-05-10T22:56:11.704Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portfolio-2337b  
+  
+ Thu May 10 2018 15:56:11 GMT-0700 (PDT)
+[debug] [2018-05-10T22:56:12.127Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-10T22:56:12.127Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/portfolio-2337b/tokens  
+  
+ Thu May 10 2018 15:56:12 GMT-0700 (PDT)
+[debug] [2018-05-10T22:56:12.616Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'portfolio-2337b'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-05-10T22:56:13.162Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/portfolio-2337b/uploads/-LCBG616ZN32KVp9coOQ?fileCount=27&message=  
+  
+ Thu May 10 2018 15:56:13 GMT-0700 (PDT)
