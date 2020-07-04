@@ -7,6 +7,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
+import { TseComponent } from './tse/tse.component';
 
 
 
@@ -15,7 +16,8 @@ import { routing } from './app.routing';
     AppComponent,
     WelcomeComponent,
     ProjectsComponent,
-    AboutComponent
+    AboutComponent,
+    TseComponent
   ],
   imports: [
     NgbModule.forRoot(), BrowserModule, routing
